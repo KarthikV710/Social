@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>722303399850-n3646djo6u5kt7t7ojdpi3vt127e84iv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.722303399850-n3646djo6u5kt7t7ojdpi3vt127e84iv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCVpW_yRlASamaxeoMw52qxkCjO-kMUesU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>722303399850</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Karthik.Social</string>
+	<key>PROJECT_ID</key>
+	<string>social-33443</string>
+	<key>STORAGE_BUCKET</key>
+	<string>social-33443.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:722303399850:ios:1468850aa3689db8</string>
+	<key>DATABASE_URL</key>
+	<string>https://social-33443.firebaseio.com</string>
+</dict>
+</plist>
