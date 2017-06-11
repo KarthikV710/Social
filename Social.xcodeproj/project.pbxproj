@@ -16,6 +16,9 @@
 		9F392AA31EEDC8A100E1D86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F392AA21EEDC8A100E1D86B /* Assets.xcassets */; };
 		9F392AA61EEDC8A100E1D86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F392AA41EEDC8A100E1D86B /* LaunchScreen.storyboard */; };
 		9F392AB11EEDC8A100E1D86B /* SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F392AB01EEDC8A100E1D86B /* SocialTests.swift */; };
+		9F451A461EEDEDC30071925E /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451A451EEDEDC30071925E /* CustomHeaderView.swift */; };
+		9F451A491EEDEE3E0071925E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451A481EEDEE3E0071925E /* Constants.swift */; };
+		9F451A4B1EEDEFCB0071925E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451A4A1EEDEFCB0071925E /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		9F392AAC1EEDC8A100E1D86B /* SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F392AB01EEDC8A100E1D86B /* SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTests.swift; sourceTree = "<group>"; };
 		9F392AB21EEDC8A100E1D86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F451A451EEDEDC30071925E /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		9F451A481EEDEE3E0071925E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9F451A4A1EEDEFCB0071925E /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		AB2E78F75E895DCA044DB04B /* Pods-SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialTests/Pods-SocialTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +97,7 @@
 		9F392A9A1EEDC8A100E1D86B /* Social */ = {
 			isa = PBXGroup;
 			children = (
+				9F451A471EEDEE240071925E /* Utilities */,
 				9F392A9B1EEDC8A100E1D86B /* AppDelegate.swift */,
 				9F7394361EEDCE4A006DD118 /* Model */,
 				9F7394391EEDCE68006DD118 /* Controller */,
@@ -113,6 +120,14 @@
 			path = SocialTests;
 			sourceTree = "<group>";
 		};
+		9F451A471EEDEE240071925E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9F451A481EEDEE3E0071925E /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		9F7394361EEDCE4A006DD118 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +138,8 @@
 		9F7394381EEDCE61006DD118 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F451A451EEDEDC30071925E /* CustomHeaderView.swift */,
+				9F451A4A1EEDEFCB0071925E /* RoundButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -360,7 +377,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F392A9E1EEDC8A100E1D86B /* LoginViewController.swift in Sources */,
+				9F451A4B1EEDEFCB0071925E /* RoundButton.swift in Sources */,
+				9F451A461EEDEDC30071925E /* CustomHeaderView.swift in Sources */,
 				9F392A9C1EEDC8A100E1D86B /* AppDelegate.swift in Sources */,
+				9F451A491EEDEE3E0071925E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
