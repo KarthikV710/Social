@@ -50,8 +50,17 @@
             </array>
         </dict>
     </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb442719282765558</string>
+            </array>
+        </dict>
+    </array>
     <key>FacebookAppID</key>
-    <string>353959221673752</string>
+    <string>442719282765558</string>
     <key>FacebookDisplayName</key>
     <string>Social</string>
     <key>LSApplicationQueriesSchemes</key>
@@ -61,7 +70,5 @@
         <string>fbauth2</string>
         <string>fbshareextension</string>
     </array>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Social needs access to Photos</string>
 </dict>
 </plist>
