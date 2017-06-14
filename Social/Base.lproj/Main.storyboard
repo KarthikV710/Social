@@ -86,14 +86,17 @@
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1c3-LH-igK">
                                         <rect key="frame" x="0.0" y="100" width="263" height="30"/>
                                         <color key="backgroundColor" red="0.95205425126903553" green="0.63232213414227967" blue="0.098474767008241398" alpha="0.8651808647260274" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="SIgn in">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gua-F7-dT1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -123,6 +126,12 @@
                             <constraint firstItem="S2f-59-tA3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zFo-Z1-AaA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="hTB-qt-oOF" id="2gQ-hq-bTY"/>
+                        <outlet property="fbLoginButton" destination="SMr-RN-smt" id="f5V-de-QSZ"/>
+                        <outlet property="passwordTextField" destination="sTJ-uK-iXo" id="Ngt-8G-uPl"/>
+                        <outlet property="signInButton" destination="1c3-LH-igK" id="zao-56-onO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

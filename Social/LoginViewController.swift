@@ -12,6 +12,11 @@ import FBSDKLoginKit
 import Firebase
 
 class LoginViewController: UIViewController {
+    
+    @IBOutlet weak var signInButton: UIButton!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var fbLoginButton: RoundButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,5 +56,25 @@ class LoginViewController: UIViewController {
         })
         
     }
+    
+    @IBAction func signInTapped(_ sender: UIButton) {
+        if let email = emailTextField.text, let password = passwordTextField.text {
+            FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
+                if error == nil {
+                    print("Karthik: Email auth successful")
+                } else {
+                    FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (user, error) in
+                        if error != nil {
+                            print("Karthik: Unable to authenticate with firebase using email: \(String(describing: error))")
+                        } else {
+                            print("Karthik: Create user successful with email")
+                        }
+                    })
+                }
+            })
+            
+        }
+    }
+    
 }
 
