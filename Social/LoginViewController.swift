@@ -33,7 +33,7 @@ class LoginViewController: UIViewController {
             } else if result?.isCancelled == true {
                 print("Karthik: User cancelled FB Auth")
             } else {
-                print("Karthik: FB Auth successfull")
+                print("Karthik: Facebook Auth successfull")
                 let credential:FIRAuthCredential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
                 self.firebaseAuth(credential)
                 
