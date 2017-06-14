@@ -13,6 +13,7 @@ target 'Social' do
   pod 'Google/SignIn'
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'SwiftKeychainWrapper'
 
   target 'SocialTests' do
     inherit! :search_paths

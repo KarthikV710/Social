@@ -12,7 +12,7 @@ class CustomHeaderView: UIView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        layer.shadowColor = UIColor(red: shadowGray, green: shadowGray, blue: shadowGray, alpha: shadowGray).cgColor
+        layer.shadowColor = UIColor(red: kShadowGray, green: kShadowGray, blue: kShadowGray, alpha: kShadowGray).cgColor
         layer.shadowOpacity = 0.8
         layer.shadowRadius = 8
         layer.shadowOffset = CGSize(width: 1, height: 1)

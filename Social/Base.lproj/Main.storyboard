@@ -131,11 +131,47 @@
                         <outlet property="fbLoginButton" destination="SMr-RN-smt" id="f5V-de-QSZ"/>
                         <outlet property="passwordTextField" destination="sTJ-uK-iXo" id="Ngt-8G-uPl"/>
                         <outlet property="signInButton" destination="1c3-LH-igK" id="zao-56-onO"/>
+                        <segue destination="5zF-xX-Fb2" kind="show" identifier="goToFeed" id="Q9Z-rH-dvn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--Feed View Controlelr-->
+        <scene sceneID="m2e-30-1sR">
+            <objects>
+                <viewController id="5zF-xX-Fb2" customClass="FeedViewControlelr" customModule="Social" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uhI-B6-1Ph"/>
+                        <viewControllerLayoutGuide type="bottom" id="GVy-B1-iIA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ju6-oR-yb9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taF-fG-eHK">
+                                <rect key="frame" x="158.5" y="318" width="57" height="30"/>
+                                <state key="normal" title="Sign out"/>
+                                <connections>
+                                    <action selector="signOutButtonTapped:" destination="5zF-xX-Fb2" eventType="touchUpInside" id="LeT-dh-png"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="taF-fG-eHK" firstAttribute="centerY" secondItem="ju6-oR-yb9" secondAttribute="centerY" id="BsT-T6-JyN"/>
+                            <constraint firstItem="taF-fG-eHK" firstAttribute="centerX" secondItem="ju6-oR-yb9" secondAttribute="centerX" id="HeY-W8-xIC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="signOutButton" destination="taF-fG-eHK" id="4Pp-Tj-dot"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToLogin" id="RDd-1Z-PXV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzv-b5-aVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="145"/>
         </scene>
     </scenes>
     <resources>
