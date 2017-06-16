@@ -19,6 +19,7 @@
 		9F451A461EEDEDC30071925E /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451A451EEDEDC30071925E /* CustomHeaderView.swift */; };
 		9F451A491EEDEE3E0071925E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451A481EEDEE3E0071925E /* Constants.swift */; };
 		9F451A4B1EEDEFCB0071925E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451A4A1EEDEFCB0071925E /* RoundButton.swift */; };
+		9F46D5071EF35D6B00CAEB4B /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F46D5061EF35D6B00CAEB4B /* RoundImage.swift */; };
 		9F6C9A011EF0EA5B00C77C20 /* FeedViewControlelr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C9A001EF0EA5B00C77C20 /* FeedViewControlelr.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		9F451A481EEDEE3E0071925E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9F451A4A1EEDEFCB0071925E /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9F451A4C1EEE0A380071925E /* Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Social.entitlements; sourceTree = "<group>"; };
+		9F46D5061EF35D6B00CAEB4B /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
 		9F6C9A001EF0EA5B00C77C20 /* FeedViewControlelr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewControlelr.swift; sourceTree = "<group>"; };
 		AB2E78F75E895DCA044DB04B /* Pods-SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialTests/Pods-SocialTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 			children = (
 				9F451A451EEDEDC30071925E /* CustomHeaderView.swift */,
 				9F451A4A1EEDEFCB0071925E /* RoundButton.swift */,
+				9F46D5061EF35D6B00CAEB4B /* RoundImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				9F6C9A011EF0EA5B00C77C20 /* FeedViewControlelr.swift in Sources */,
 				9F451A461EEDEDC30071925E /* CustomHeaderView.swift in Sources */,
 				9F392A9C1EEDC8A100E1D86B /* AppDelegate.swift in Sources */,
+				9F46D5071EF35D6B00CAEB4B /* RoundImage.swift in Sources */,
 				9F451A491EEDEE3E0071925E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
