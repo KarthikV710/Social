@@ -234,7 +234,6 @@
 				TargetAttributes = {
 					9F392A971EEDC8A100E1D86B = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = S2KT7HR944;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -547,7 +546,7 @@
 			baseConfigurationReference = 67BC419747791161353C29EB /* Pods-Social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S2KT7HR944;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Social/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Karthik.Social;
@@ -561,7 +560,7 @@
 			baseConfigurationReference = 294742A90E60116C0E1E4C17 /* Pods-Social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S2KT7HR944;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Social/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Karthik.Social;
